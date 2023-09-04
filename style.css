@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+body {
+    font-family: 'Happy Monkey', cursive;
+    text-align: center;
+    background: linear-gradient(#a2d2ff, #EFB0C9);
+    color: #ffffff;
+    text-shadow: 0px 0px 1px black;
+}
+
+#header {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main-age,
+#main-date {
+    background: #EFB0C9;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+#main-img {
+    width: 200px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+}
+
+#main-age {
+    margin: 5px 0px 10px;
+}
+
+#main-date {
+    margin: 0;
+}
+
+.gift-section {
+    margin: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0px;;
+}
+
+.gift {
+    width: 400px;
+    height: 400px;
+    border: 5px solid white;
+    border-radius: 5px;
+    margin: 0 auto;
+    background-image: url("assets/gift_wrap.webp");
+    background-size: cover;
+    cursor: pointer;
+}
+
+#gift1-img:hover {
+    background-image: url("assets/happy1.gif");
+}
+
+#gift2-img:hover {
+    background-image: url("assets/happy.gif");
+}
+
+#gift3-img:hover {
+    background-image: url("assets/awesome.gif") ;
+}
+
+#gift4-img:hover {
+    background-image: url("assets/badass.gif");
+}
+
+#gift5-img {
+    height: 200px;
+    background-size:contain;
+}
+
+#gift5-img:hover {
+    background-image: url("assets/cheers.gif");
+}
+
+#footer,
+a {
+    color: black;
+    text-shadow: 0px 0px 1px white;
+}
+
+#footer {
+    width: 400px;
+    margin: 50px auto 20px;
+}
